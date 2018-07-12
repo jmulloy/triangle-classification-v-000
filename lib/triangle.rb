@@ -22,7 +22,9 @@ end
 
 class TriangleError < StandardError
 
-  
+  def new
+    @side_1 +
+  end
 
 
 

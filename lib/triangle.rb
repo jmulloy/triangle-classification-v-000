@@ -20,7 +20,9 @@ class Triangle
   end
 
   def validation_method
-
+    if @side_1 > 0 && @side_2 > 0 && @side_3 > 0
+      kind
+    elsif
 
   end
 end

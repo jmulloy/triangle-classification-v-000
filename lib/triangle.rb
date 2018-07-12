@@ -20,7 +20,7 @@ class Triangle
     end
 
     def new
-
+      @side_1
     end
 end
 

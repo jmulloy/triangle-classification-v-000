@@ -19,9 +19,7 @@ class Triangle
     end
   end
 
-    def new
-      @side_1
-    end
+
 end
 
 class TriangleError < StandardError

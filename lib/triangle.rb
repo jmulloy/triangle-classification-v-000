@@ -23,7 +23,10 @@ end
 class TriangleError < StandardError
 
   def new
-    @side_1 +
+    if @side_1 && @side_2 && @side_3 == 0
+    end
+  end
+
   end
 
 

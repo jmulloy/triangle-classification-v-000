@@ -20,7 +20,7 @@ class Triangle
         :isosceles
       end
     else
-        raise TriangleError
+      raise TriangleError
     end
   end
 

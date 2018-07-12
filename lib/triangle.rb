@@ -21,6 +21,7 @@ class Triangle
 
   def validation_method
 
+
   end
 end
 

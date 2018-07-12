@@ -17,7 +17,7 @@ class Triangle
     else
       :isosceles
     end
-    end
+  end
 
     def new
       @side_1

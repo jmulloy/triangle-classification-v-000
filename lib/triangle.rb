@@ -20,6 +20,7 @@ class Triangle
         :isosceles
       end
     else
+      binding.pry
       raise TriangleError
     end
   end

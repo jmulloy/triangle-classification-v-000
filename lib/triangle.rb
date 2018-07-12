@@ -9,18 +9,22 @@ class Triangle
   end
 
   def kind
-    if @side_1 == @side_2 && @side_3 == @side_2
-      :equilateral
-    elsif
-      @side_1 != @side_2 && @side_1 != @side_3 && @side_2 != @side_3
-      :scalene
+    if validation_method
+      if @side_1 == @side_2 && @side_3 == @side_2
+        :equilateral
+      elsif
+        @side_1 != @side_2 && @side_1 != @side_3 && @side_2 != @side_3
+        :scalene
+      else
+        :isosceles
+      end
     else
-      :isosceles
+
     end
   end
 
   def validation_method
-    if (@side_1 > 0 && @side_2 > 0 && @side_3 > 0) && (@side_1 + @side_2 >= @side_3 || @side_3 + @side_2 >= @side_1 || @side_3 + @side_1 >= @side_2)
+    (@side_1 > 0 && @side_2 > 0 && @side_3 > 0) && (@side_1 + @side_2 >= @side_3 || @side_3 + @side_2 >= @side_1 || @side_3 + @side_1 >= @side_2)
 
   end
 end

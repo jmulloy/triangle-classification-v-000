@@ -18,6 +18,10 @@ class Triangle
       :isosceles
     end
     end
+
+    def new
+
+    end
 end
 
 class TriangleError < StandardError

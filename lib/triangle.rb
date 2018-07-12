@@ -15,7 +15,7 @@ class Triangle
       @side_1 == @side_2
       :isosceles
     else
-      :scalene
+      :isosceles
     end
     end
 end
